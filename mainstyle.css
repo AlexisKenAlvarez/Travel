@@ -202,6 +202,7 @@ iframe {
     margin-right: 20%;
     opacity: 0.5;   
 }
+
 @media (max-width: 1600px) {
     .bio {
     font-family: sans-serif;
@@ -209,10 +210,21 @@ iframe {
     margin-left: 13.4%;
     margin-top: 75px;
     text-align: left;
-    font-size: 18px;
+    font-size: 20px;
     }
-}
-@media (max-width: 1600px) {
+    .twintext {
+        font-family: 'Bree Serif', serif;
+        font-size: 40px;
+        color: black;
+        text-align: center;
+        margin-top: 200px;
+        letter-spacing: 25px;
+        padding: 15px;
+        background-color: #F5F5DC;
+        margin-left: 6%;
+        margin-right: 6%;
+        opacity: 0.5;
+    }
     .subBio{
         text-align: justify;
         opacity: 0.6;
@@ -221,22 +233,15 @@ iframe {
         margin-left: 13.4%;
         line-height: 27px;
         margin-right: 59%;
-    }
-}
-@media (max-width: 1600px) {
-    .twintext {
-        font-family: 'Bree Serif', serif;
-        font-size: 40px;
-        color: black;
-        text-align: center;
-        margin-top: 300px;
-        letter-spacing: 25px;
-        padding: 15px;
-        background-color: #F5F5DC;
-        margin-left: 6%;
-        margin-right: 6%;
-        opacity: 0.5;
-        
+    }   
+    .h1-b {
+        font-family: monospace;
+        letter-spacing: 5px;
+        text-align: left;
+        margin-left: 13.4%;
+        margin-top: -800px;
+        font-size: 18px;
+    
     }
 }
 

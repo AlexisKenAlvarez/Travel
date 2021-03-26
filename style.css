@@ -92,8 +92,13 @@ body{
         border-radius: 100px;
         background-color: burlywood;
     }
-}
-@media(max-width: 1600px){
+    #burger-right {
+        position: absolute;
+        top: 4%;
+        right: 40px;
+        width: 250px;
+        height: 300px;
+    }
     #charmy {
         position: absolute;
         width: 100px;
@@ -101,8 +106,6 @@ body{
         top: 0%;
         left: 39.5%;
     }
-}
-@media(max-width: 1600px){
     .smaller-image{
         height: 130px;
         width: 250px;
@@ -110,21 +113,10 @@ body{
         border-width: 10px;
         color: white;
     }
-}
-@media(max-width: 1600px){
     #burger-left {
         position: absolute;
         top: 4%;
         left: 40px;
-        width: 250px;
-        height: 300px;
-    }
-}
-@media(max-width: 1600px){
-    #burger-right {
-        position: absolute;
-        top: 4%;
-        right: 40px;
         width: 250px;
         height: 300px;
     }

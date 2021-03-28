@@ -1039,7 +1039,7 @@ button:focus{
         background-color: burlywood;
     }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
     .container-lomi {
         position: absolute;
         left: 0px;

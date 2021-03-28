@@ -1120,4 +1120,9 @@ button:focus{
         flex: 1;
         margin-right: 20%;
     }
+    .box6 {
+        text-align: center;
+        flex: 1;
+        margin-right: 5%;
+    }
 }

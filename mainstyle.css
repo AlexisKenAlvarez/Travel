@@ -115,15 +115,6 @@ iframe {
     line-height: 27px;
     margin-right: 50%;
 }
-#lomi {
-    position: absolute;
-    object-fit: cover;
-    top: 3920px;
-    left: 0px;
-    width: 100%;
-    height: auto;
-    z-index: -1;
-}
 .container-black {
     position: absolute;
     left: 0px;
@@ -178,6 +169,7 @@ iframe {
     width: 100%;
     height: 1939px; 
     background: linear-gradient(180deg, #FFF5EE, #F5F5DC);
+
 }
 .popular {
     font-family: 'Bree Serif', serif;
@@ -241,6 +233,200 @@ iframe:hover {
 button:focus{
     outline: 0;
 }
+.container-inside-p1{
+    margin-top: 20px;
+    width: 70%;
+    height: 470px; 
+    background: none;
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    justify-content: space-around;
+    margin: auto;
+
+}
+.container-inside-p2{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-top: 0px;
+    width: 70%;
+    height: 470px; 
+    background: none;
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    margin: auto;
+}
+.container-inside-p3{
+    margin: auto;
+    display: flex;
+    width: 70%;
+    text-align: center;
+    background: none;
+    height: 600px;
+    margin-top: 475px;
+    font-family: 'Bree Serif', serif;
+
+}
+.text-container {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    background: none;
+    height: 100px;
+    margin-top: -120px;
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#fantasy {
+    height: 255px;
+    width: 450px;
+}
+#twin-self {
+    width: 450px;
+}
+#peoples {
+    width: 450px;
+}
+#kamay {
+    width: 450px;
+    height: 255px;
+}
+#sga {
+    width: 450px;
+}
+#malibic{
+    width: 450px;
+}
+
+
+.box1{
+    text-align: center;
+    flex: 1;
+}
+.box2{
+    text-align: center;
+    flex: 1;
+}
+.box3{
+    text-align: center;
+    flex: 1;
+}
+.box4{
+    flex: 1;
+    text-align: center;
+}
+.box5 {
+    flex: 1;
+
+}
+.box6 {
+    flex: 1;
+}
+.opacity {
+    opacity: 0.5;
+    
+}
+.fantasy-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 2%;
+    
+}
+.twin-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 270px;
+    margin: auto;
+    margin-bottom: 2%;
+    
+}
+.people-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 2%;
+    
+}
+.kamay-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 360px;
+    margin: auto;
+    margin-bottom: 2%;
+    
+}
+.malibic-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 2%;
+}
+.sga-div {
+    background-color: burlywood;
+    padding: 1px;
+    width: 380px;
+    margin: auto;
+    margin-bottom: 2%;
+}
+.clickable {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    opacity: 0.5;
+    font-family: sans-serif;
+    
+}
+.box1:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.box2:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.box3:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.box4:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.box5:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.box6:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+.container-food {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-top: 1790px;
+    width: 100%;
+    height: 728px; 
+    background-image: url(img/lomiC.jpg.png);
+    border: 3px solid red;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -285,7 +471,7 @@ button:focus{
         text-align: justify;
         opacity: 0.6;
         font-family: sans-serif;
-        font-size: 10px;
+        font-size: 12px;
         margin-left: 13.4%;
         line-height: 27px;
         margin-right: 59%;
@@ -330,5 +516,55 @@ button:focus{
         transform: scale(1.1);
         transition-duration: 0.4s;  
     }
-}
+    .container-inside-p1{
+        width: 80%;
+        height: 470px; 
+        background: none;
+        display: flex;
+        font-family: 'Bree Serif', serif;
+        justify-content: space-around;
+        margin: auto;
+        margin-top: 100px;
+    
+    }
+    .container-inside-p2{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 0px;
+        width: 80%;
+        height: 470px; 
+        background: none;
+        display: flex;
+        font-family: 'Bree Serif', serif;
+        margin: auto;
+    }
+    .container-inside-p3{
+        margin: auto;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        background: none;
+        height: 600px;
+        margin-top: 475px;
+        font-family: 'Bree Serif', serif;
+        
+    }
 
+    
+}
+@media (max-width: 1600px) {
+    .container-food {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 1790px;
+        width: 100%;
+        height: 528px; 
+        background-image: url(img/lomiC.jpg.png);
+        border: 3px solid red;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+}
